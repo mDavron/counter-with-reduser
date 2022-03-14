@@ -34,7 +34,7 @@ function ReduserApp() {
         className="btn btn-success m-2"
         onClick={() => dispatch({ type: DECREMENT })}
       >
-        Increment
+        Decrement
       </button>
       <h1> Counter:{count}</h1>
       <button  className="btn btn-success m-2" onClick={() => dispatch({ type: RESET })}>Reset</button>
